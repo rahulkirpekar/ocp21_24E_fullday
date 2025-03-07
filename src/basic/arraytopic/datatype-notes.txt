@@ -1,0 +1,14 @@
+
+
+Array:-
+------
+	1) Primitive		2) Non-Primitive
+	--------------		--------------
+	--> boolean		Student/Employee/Product/Customer
+	--> byte
+	--> char
+	--> short
+	--> int
+	--> long
+	--> float
+	--> double
