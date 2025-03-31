@@ -37,3 +37,35 @@ UML class diagram for the Vehicle Rental System:-
              +----------------------+
              | main() method         |
              +----------------------+
+
+-----------------------------------------------------------------------------------------------------
+
+
+                 [Vehicle]  (Base Class)
+                     |
+    --------------------------------------
+    |                |                  |
+ [Car]           [Bike]              [Truck]
+ (inherits)      (inherits)          (inherits)
+  |                                    |
+  |--------------------|--------------------|
+  | Overridden        | Overridden         |
+  | calculateCost()   | calculateCost()    |
+  
+                 [Customer]
+                    |
+    --------------------------------
+    |                              |
+ rentVehicle()                  returnVehicle()
+ 
+         [VehicleRentalSystem] (Main Class)
+                     |
+     ---------------------------------------
+     |                 |                  |
+  Creates            Creates            Calls
+  Vehicles          Customers           rental/return methods
+             
+             
+             
+             
+             
