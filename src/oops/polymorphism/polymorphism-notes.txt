@@ -1,0 +1,15 @@
+1) Runtime Polymorphism
+---------------------------
+===> Late Binding
+===> Dynamic Binding
+
+			
+			Person(getPlaceByBehaviour())
+			  |
+ -----------------------------------------------------------
+ |		|			|		|		
+Student	     Employee		      Citizen	       Child	      
+ |		|			|		 |
+School	        Org		      PublicPlace	Home	
+getPlaceByBehaviour()
+	getPlaceByBehaviour()	getPlaceByBehaviour()	getPlaceByBehaviour()

@@ -1,0 +1,83 @@
+
+		Type of Relation
+		-----------------
+
+1) IS-A Relation		2) HAS-A Relation(Aggregation)
+------------------		-------------------------------		
+	|
+	|
+	|
+	|
+Inheritance:- Code Reusibility
+--------------
+
+
+
+	     "By Class"						"ByInterface"
+		|						    |	
+|---------------------------------------------|		|--------------------------|   	
+1) Single	2) MultiLevel	3) Hierarchial		4) Multiple	5) Hybrid
+-------------	-------------	--------------		-------------	-------------
+
+
+1) Single:-
+----------
+	A(no1)
+	|
+	B(no2)
+
+class A
+{
+	int no1;	
+};
+class B extends A
+{
+	int no2;	
+};
+
+
+	
+	Person(String name)
+	  |
+	Employee(id,salary,dsgn)
+	
+
+		
+	"Employee IS-A Person"// TRUE
+
+
+	Address(String city,state,country)
+	  |
+	Employee(id,salary,dsgn)
+
+
+	Employee IS-A Address// FALSE
+
+	Address IS-A Employee // FALSE
+
+
+	Employee HAS-A Address// TRUE
+
+	Address HAS-A Employee // FALSE
+
+
+
+class Address
+{
+	String city,state,country;
+}
+class Employee
+{
+	int id,salary;
+	String dsgn;
+
+	// Has-A relation
+	Address address = new Address();	
+}
+
+
+
+
+
+
+		

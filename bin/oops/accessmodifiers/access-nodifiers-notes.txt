@@ -1,0 +1,41 @@
+			Modifiers
+			   |
+	------------------------------------------
+	|					|
+Access Modifiers			Non-Access Modifiers
+------------------			---------------------
+
+  private,				1) static , abstract , final , volatile , strictfp , transient	,synchronized
+  Java Default Scope			  
+  protected 
+  public				  
+----------------------------------------------------------------------
+Access Modifiers:-
+----------------
+
+	1) private--Dm's,Mf's,Constructor--[WITHIN CLASS]
+
+	2) Java Default Scope(package level private)--class,Dm's,Mf's,Constructor
+
+	3) protected--Dm's,Mf's,Constructor
+
+	4) public--class,Dm's,Mf's,Constructor
+
+----------------------------------------------------------------------------------------------------
+		 SAME PACKAGE	  SAME PACKAGE	  SAME PACKAGE	  OUTSIDE PACKAGE  OUTSIDE PACKAGE |		
+		 WITHIN CLASS	  OUTSIDE CLASS	  CHILD CLASS	  OUTSIDE CLASS	   CHILD CLASSS	   |	
+---------------------------------------------------------------------------------------------------| 
+private		|  YES		|    NO		|    NO		|    NO		|    NO		   |
+---------------------------------------------------------------------------------------------------|
+default		|  YES 		|    YES	|    YES	|    NO		|    NO		   |
+---------------------------------------------------------------------------------------------------|
+protected	|  YES 		|    YES	|    YES 	|    NO		|    YES(IS-A)	   |--can access through Child Object
+---------------------------------------------------------------------------------------------------|
+public		|  YES 		|    YES	|    YES	|    YES	|    YES	   |
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
