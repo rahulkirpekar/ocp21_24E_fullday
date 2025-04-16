@@ -1,0 +1,46 @@
+Abstraction:-
+--------------
+
+1) abstract class(0% to 100%)	2) interface(100%)
+
+
+2) interface(Pure Abstraction):-
+---------------------------------
+
+	class		interface
+	  |--extends	  |--extends
+	class		interface
+
+	interface		class
+	  |---implements	  |---X(Not Possible in Java)	
+	class			interface
+
+
+
+
+public interface A
+{
+	// 1) Dm's---[public static final]---[constant variables]
+	// 2) Mf's--
+		1) Abstract method-----[public abstract]
+		2) Non-Abstract method--
+			[
+				===>static(8),
+				===>default(8),
+				===>private(9)
+			]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

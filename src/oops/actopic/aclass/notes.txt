@@ -1,0 +1,64 @@
+Abstraction:-
+-------------
+			Type of Abstraction
+			-------------------
+				|
+		--------------------------------
+		|			   |
+	  0% to 100% 			  100%
+	------------------		------------------
+	1) Abstract Class		2) interface(Pure abstraction)
+
+1) Abstract Class:-
+------------------
+
+abstract class A
+{
+	// 1) Dm's
+	// 2) Mf'
+		1) abstract methods
+
+			abstract void test1();
+
+		2) Non-abstract methods
+	
+
+	// 3) constructor	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

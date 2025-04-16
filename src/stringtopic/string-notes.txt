@@ -1,0 +1,127 @@
+String---Multiple Characters
+--------------------------------
+
+Single Character:-
+----------------
+	1) char value = sc.next().charAt(0);// r
+	2) char value = (char)System.in.read();// a--65
+
+Multiple Characters:-
+----------------------
+	1) char array
+	2) String(class)
+	3) StringBuilder(Class)
+	4) StringBuffer(Class)
+------------------------------------------------------------------------------------------------------
+String Data---operation---Two way
+
+
+		Ways to operation on String type Data
+		--------------------------------------
+				|
+	--------------------------------------------------	
+	|						|
+------------------				------------------
+1) ImmutableWay					2) MutableWay
+------------------				------------------
+==>String(class)				==>StringBuilder(class)
+						==>StringBuffer(class)
+--------------------------------------------------------------------------------------------------------	
+1) ImmutableWay	(String--class):-
+----------------------------------
+
+	**Two ways to create string class object :-
+	--------------------------------------------
+		
+		1) By String literal way[RAM----HEAP----SCP("String Constant Pool")]:-
+		---------------------------------------------------------------
+
+			String name1 = "royal";		
+			String name2 = "royal";
+			String name3 = name1;
+			String name4 = "Technosoft";
+		
+			
+			SOP(name1+name4);// royalTechnosoft
+			SOP(name1);// royal
+			SOP(name4);// Technosoft
+			SOP(name5);// royalTechnosoft
+
+
+Object Equality:-
+---------------
+	1) referenceBased		2) valuesBased
+	------------------		------------------
+	   ==				equals()
+				
+
+
+
+		2) By 'new' keyword way:-
+		----------------------------
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

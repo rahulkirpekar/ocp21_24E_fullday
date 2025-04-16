@@ -1,6 +1,6 @@
 package oops.task1;
 
-public class Employee 
+public class Employee extends Person
 {
 	 private int empId; 
 	 private String empName;
