@@ -1,0 +1,151 @@
+Exception:- Abnormal Scenario---code crashed---raise exception
+----------
+	statement-----1
+	statement-----2
+	statement-----3
+	statement-----4 
+	statement-----5---raise exception---code crashed---app crashed
+	statement-----6
+	statement-----7
+	statement-----8
+	statement-----9
+	statement-----10
+-------------------------------------------------------------------------------------
+	1) no1 =10;
+	   no2 = 0;
+
+	   ans = no1 / no2;// ArithmeticException---class--code crashed
+	------------------------------
+	2)
+	String name = null;
+	SOP(name.length());// NullpointerException
+	------------------------------
+	3) 
+		int a[] = new int[5];// a[0],a[1],a[2],a[3],a[4]
+		a[5] = 100;// ArrayIndexoutofBoundException
+	------------------------------
+	4) 
+		//	       01234	
+		String name = "royal";
+		SOP(name.charAt(5));//StringIndexoutofBoundException
+	------------------------------
+	5) 
+		String value = "a1z2";
+		int no1 = Integer.parseInt(value);// NumberFormateException
+	------------------------------
+	6)
+			A
+			|	
+		------------------
+		|		|
+		B		C
+	A objA = new B();
+	
+	C objC = (C)objA;// ClassCastException
+
+-------------------------------------------------------------------------------------
+Type of Exception:-
+------------------
+	1) Checked Exception			2) Un-Checked Exception
+	--------------------			------------------------
+		|					|
+	CompileTime--Compiler			    Jvm--Runtime
+------------------------------------------------------------------------------------------------------------------
+				Hierarchy of Exception
+				-----------------------
+
+					Throwable(Class)
+					   |
+					Exception(Class)
+					   |
+		-----------------------------------------------------------------
+		|--CheckException						|
+----IOException								   RuntimeException(class)	
+----SQLException								|-UnChecked Exception
+----FileNotFoundException					--ArithmeticException		
+----..								--ArrayIndexoutofBoundException
+								--ClasscstException
+								--NullPointerException
+								--StringIndexoutofBoundException
+								--NumberFormatException
+								--InteruptedException
+								--IllegalThreadstateException
+------------------------------------------------------------------------------------------------------------------
+
+Exception Handling:-
+---------------------
+
+		try
+		{
+			// code By raise exception ---ArrayIndexoutofBoundException
+		}
+		catch(ArrayIndexoutofBoundException e)
+		{
+
+		}
+--------------------------------------------
+
+		1) multiple catch block
+		2) Nested try..catch block
+		3) throw
+		4) throws
+		5) custom Exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
