@@ -87,6 +87,7 @@ Exception Handling:-
 
 		1) multiple catch block
 		2) Nested try..catch block
+		3) finally block
 		3) throw
 		4) throws
 		5) custom Exception
