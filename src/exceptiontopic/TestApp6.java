@@ -18,14 +18,12 @@ public class TestApp6
 			System.out.println("Welcome for Vote");
 		}
 	}
-	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter Age for Vote : ");
 		int age = sc.nextInt();
-		
 		try 
 		{
 			isValidForVote(age);
