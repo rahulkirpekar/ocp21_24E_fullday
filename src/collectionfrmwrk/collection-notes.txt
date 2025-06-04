@@ -1,0 +1,49 @@
+Array Limitations:-
+-------------------
+	int a[] = new int[500];
+
+	1) SIZE
+	2) TYPE
+
+
+Collection Framework:- To overcome Array Limitations.
+----------------------
+
+			Hierarchy of Collection Framework--[import java.util.ArrayList]
+			-----------------------------------
+
+				Iterable(I)--------------------------------------------------------------
+				  |									|
+				Collection(I)								|
+				  |									|
+	---------------------------------------------------------					|Data--[Key,Value]
+	|			  |				|					|
+    List(I)			Set(I)			    Queue(I)				       Map(I)--[Key,Value]
+	|			  |				|					|
+AbstractList(AC)	   AbstractSet(AC)		AbstractQueue(AC)			   AbstractMap(AC)				
+	|			  |				|					|
+--ArrayList(C)		   --HashSet(C)			--PriorityQueue(C)			--HashMap(C)
+--Vector(C)		   --LinkedHashSet(C)							--LinkedHashMap(C)	
+--LinkedList(C)		   --TreeSet(C)								--TreeMap(C)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
