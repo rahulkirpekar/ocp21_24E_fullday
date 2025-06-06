@@ -1,6 +1,6 @@
 package collectionfrmwrk.sortingtech;
 
-public class Student implements Comparable<Student>
+public class Student //implements Comparable<Student>
 {
 	int rno;
 	String name;
@@ -50,9 +50,9 @@ public class Student implements Comparable<Student>
 //		}	
 //	}
 	
-	@Override
-	public int compareTo(Student s2) 
-	{
-		return getName().compareTo(s2.getName());
-	}
+//	@Override
+//	public int compareTo(Student s2) 
+//	{
+//		return getName().compareTo(s2.getName());
+//	}
 }

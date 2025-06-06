@@ -30,8 +30,20 @@ public class TestApp2
 			s.dispData();
 		}
 		
-		Collections.sort(list);
-		System.out.println("After Sorting : ");
+		Collections.sort(list, new StdWiseStudentComparator());
+		
+		System.out.println("After StdWise Sorting : ");
+		itr =	list.iterator();
+		
+		while (itr.hasNext()) 
+		{
+			Student s = (Student) itr.next();
+			s.dispData();
+		}
+		
+		Collections.sort(list, new NameWiseStudentComparator());
+		
+		System.out.println("After NameWise Sorting : ");
 		itr =	list.iterator();
 		
 		while (itr.hasNext()) 
